@@ -1,4 +1,16 @@
 {
 	"canEnterViaWarpDrive" : true,
-	"startHere" : true
+	"startHere" : true,
+	"Skybox":{
+		"rightPath": "systems/skybox.png",
+		"leftPath": "systems/skybox.png",
+		"topPath": "systems/skybox.png",
+		"bottomPath": "systems/skybox.png",
+		"frontPath": "systems/skybox.png",
+		"backPath": "systems/skybox.png"
+
+	},
+	"enableTimeLoop" : false,
+	"destroyStockPlanets" : true,
+	"mapRestricted": true
 }

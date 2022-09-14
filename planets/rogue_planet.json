@@ -1,75 +1,130 @@
 {
-	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/master/NewHorizons/schema.json",
-	"name": "Espied Serenity",
-	"StarSystem": "Ciborg9m.Rogue_Planet",
-	"canShowOnTitle": false,
-	"Base": {
-		"surfaceSize": 50,
-		"surfaceGravity": 6,
-		"hasMapMarker": true,
-		"hasAmbientLight": false
-	},
-	"Orbit": {
-		"IsStatic": false,
-		"AxialTilt": 40,
-		"SiderealPeriod": 4
-	},
-	"Spawn": 
-	{
-		"PlayerSpawnPoint": {"x": -38.0603, "y": -19.28273, "z": 26.05641}, 
-		"ShipSpawnPoint":  {"x": -30.05414, "y": 0.66222, "z": 39.95161}
-	},
-	"Atmosphere": {
-		"size": 130,
-		"hasOxygen": true
-	},
-	"HeightMap": {
-		"textureMap": "planets/assets/Grass.png",
-		"maxHeight": 50,
-		"minHeight": 50
-	
-	},
-	"Signal" : 
-	{
-		"signals" : 
-		[
-			{ 
-				"frequency" : "Traveler", 
-				"name" : "Campfire", 
-				"audioClip" : "OW_NM_EscapePodDistressSignal", 
-				"sourceRadius" : 1, 
-				"detectionRadius" : 60,
-				"identificationRadius" : 10,
-				"position" : {"x": -30.87462,"y": -13.81198,"z": 36.81517}
-			}
-		]
-	},
-	"Props": {
-		"scatter": [
-			{
-				"path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_QRedwood/QRedwood (2)/Prefab_TH_Redwood",
-				"count": 300,
-				"scale": 0.25
-			}
-		],
-		"details": [
-			{
-				"path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
-				"position": {"x": -30.87462,"y": -13.81198,"z": 36.81517},
-				"alignToNormal": true
-			}
-		],
-		"nomaiText":[
-			{
-				"comment": "???",
-				"position":{"x": 44.4230, "y": 2.366954, "z": -22.80976}, 
-				"normal": {"x": 0.8930065, "y": 0.05632958, "z": -0.4465047},
-				"xmlFile": "planets/Text.xml",
-				"seed":69,
-				"arcInfo":[
-					{"type": "adult"}
-				]
-			}
-		]
-	}
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "Atmosphere": {
+    "hasOxygen": true,
+    "size": 130.0
+  },
+  "Base": {
+    "centerOfSolarSystem": true,
+    "hasMapMarker": true,
+    "surfaceGravity": 6.0,
+    "surfaceSize": 50.0
+  },
+  "HeightMap": {
+    "maxHeight": 50.0,
+    "minHeight": 50.0,
+    "textureMap": "planets/assets/Grass.png"
+  },
+  "name": "Espied Serenity",
+  "canShowOnTitle": false,
+  "Orbit": {
+    "axialTilt": 40.0,
+    "siderealPeriod": 4.0,
+    "isStatic": true,
+    "semiMajorAxis": 0.0
+  },
+  "Props": {
+    "details": [
+      {
+        "alignToNormal": true,
+        "path": "TimberHearth_Body/Sector_TH/Sector_Village/Interactables_Village/LaunchTower/Effects_HEA_Campfire",
+        "position": {
+          "x": -30.87462,
+          "y": -13.81198,
+          "z": 36.81517
+        }
+      }
+    ],
+    "nomaiText": [
+      {
+        "arcInfo": [
+          {
+            "variation": 21
+          }
+        ],
+        "normal": {
+          "x": 0.8930065,
+          "y": 0.05632958,
+          "z": -0.4465047
+        },
+        "position": {
+          "x": 44.423,
+          "y": 2.366954,
+          "z": -22.80976
+        },
+        "rotation": {
+          "x": 356.770844,
+          "y": 116.565132,
+          "z": -1.0689142E-07
+        },
+        "seed": 69,
+        "xmlFile": "planets/Text.xml"
+      }
+    ],
+    "scatter": [
+      {
+        "count": 300,
+        "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_1/Crater_1_QRedwood/QRedwood (2)/Prefab_TH_Redwood",
+        "scale": 0.25
+      }
+    ]
+  },
+  "ReferenceFrame": {
+    "bracketRadius": -1.0
+  },
+  "ShipLog": {
+    "mapMode": {
+      "revealedSprite": "planets/assets/ES_icon3.png"
+    },
+    "xmlFile": "planets/shiplog.xml",
+    "spriteFolder": "planets/entry_sprites/",
+    "initialReveal": [
+      "ES_Campfire_X1"
+    ],
+    "curiosities": [
+      {
+        "id": "ES_Campfire",
+        "color": {
+          "r": 0,
+          "g": 100,
+          "b": 0,
+          "a": 255
+        },
+        "highlightColor": {
+          "r": 0,
+          "g": 200,
+          "b": 0,
+          "a": 255
+        }
+      }
+    ]
+  },
+  "Signal": {
+    "signals": [
+      {
+        "audioClip": "OW_NM_EscapePodDistressSignal",
+        "detectionRadius": 60.0,
+        "frequency": "Traveler",
+        "name": "Campfire",
+        "position": {
+          "x": -30.87462,
+          "y": -13.81198,
+          "z": 36.81517
+        }
+      }
+    ]
+  },
+  "Spawn": {
+    "playerSpawnPoint": {
+      "x": -37.39676,
+      "y": -30.61028,
+      "z": 12.82557
+    },
+    "shipSpawnPoint": {
+      "x": -21.12368,
+      "y": -3.135757,
+      "z": 45.21016
+    }
+  },
+  "starSystem": "Ciborg9m.Rogue_Planet"
 }

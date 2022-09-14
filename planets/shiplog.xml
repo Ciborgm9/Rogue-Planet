@@ -1,0 +1,21 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+
+    <ID>Espied Serenity</ID>
+
+    <Entry>
+        <ID>ES_Campfire</ID>
+        <Name>???</Name>
+
+        <Curiosity>ES_Campfire</Curiosity>
+
+        <IsCuriosity/>
+
+        <IgnoreMoreToExplore/>
+
+        <ExploreFact>
+            <ID>ES_Campfire_X1</ID>
+            <Text>I didn't wake up to the green silhouette of Giant's Deep.</Text>
+        </ExploreFact>
+        
+    </Entry>
+</AstroObjectEntry>
