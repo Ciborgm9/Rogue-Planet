@@ -1,12 +1,9 @@
-# Outer Wilds planet creation template
- A template project for adding planets to Outer Wilds with [New Horizons](https://github.com/xen-42/outer-wilds-new-horizons).
+# Espied Serenity
 
-The source code for the dll used is [here](https://github.com/xen-42/ow-new-horizons-mod-template).
+This addon adds a rouge planet similar to the one seen in the main menu of the game. It dosent have much content or a story (at least for now ;)) but it does feature a little easter egg. I hope you like visiting it! 
 
-## Prerequisites
-- Outer Wilds Mod Manager (get it from the [Outer Wilds Mods](https://outerwildsmods.com/) website)
-- OWML installed in the Mod Manager
-- A GitHub account (required for forking the repo and for releasing your mod to the public)
+
+
 
 ## How to use this template
 1. Generate your repository from this template (click on Use This Template above).
