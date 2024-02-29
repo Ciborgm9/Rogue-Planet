@@ -4,8 +4,8 @@ This addon for New Horizons adds a rogue planet similar to the one seen in the m
 
 ## Screenshots
 
-![alt text](https://cdn.discordapp.com/attachments/571338136869928971/1020727591600128040/unknown.png)
+![alt text](https://github.com/Ciborgm9/Rogue-Planet/assets/34462599/02c1cfec-92cf-471e-a018-479694a5168e)
 
-![alt text](https://cdn.discordapp.com/attachments/571338136869928971/1020728269986861147/unknown.png) 
+![alt text](https://github.com/Ciborgm9/Rogue-Planet/assets/34462599/19a4e36d-7767-4782-ab9b-2e2e653a6629)
 
-![alt text](https://cdn.discordapp.com/attachments/571338136869928971/1020728330238050405/unknown.png) 
+![alt text](https://github.com/Ciborgm9/Rogue-Planet/assets/34462599/41486125-e4af-4c96-bc3a-ecea79d84511)
